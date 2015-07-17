@@ -10,8 +10,8 @@ package com.tt.potomemo.common.utils;
 //import com.baidu.yun.channel.model.PushUnicastMessageRequest;
 //import com.baidu.yun.core.log.YunLogEvent;
 //import com.baidu.yun.core.log.YunLogHandler;
-//import com.jodo.freejpoint.modules.sys.entity.User;
-//import com.jodo.freejpoint.modules.sys.utils.UserUtils;
+//import com.tt.potomemo.modules.sys.entity.User;
+//import com.tt.potomemo.modules.sys.utils.UserUtils;
 
 public class MobileSendMessage {
 	

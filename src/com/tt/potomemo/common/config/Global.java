@@ -8,7 +8,6 @@ import java.util.Map;
 
 import org.springframework.core.io.DefaultResourceLoader;
 
-import com.ckfinder.connector.ServletContextFactory;
 import com.google.common.collect.Maps;
 import com.tt.potomemo.common.utils.PropertiesLoader;
 import com.tt.potomemo.common.utils.StringUtils;
@@ -146,7 +145,7 @@ public class Global {
 	 * 获取上传文件的根目录
 	 * @return
 	 */
-	public static String getUserfilesBaseDir() {
+	/*public static String getUserfilesBaseDir() {
 		String dir = getConfig("userfiles.basedir");
 		if (StringUtils.isBlank(dir)){
 			try {
@@ -160,7 +159,7 @@ public class Global {
 		}
 //		System.out.println("userfiles.basedir: " + dir);
 		return dir;
-	}
+	}*/
 	
     /**
      * 获取工程路径
