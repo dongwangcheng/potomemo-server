@@ -50,8 +50,7 @@ public class CashController extends BaseController {
 	public String list(Cash cash, HttpServletRequest request, HttpServletResponse response, Model model) {
 		Page<Cash> page = cashService.findPage(new Page<Cash>(request, response), cash); 
 		
-		/*JedisUtils.set("dongwangcheng", "18826410895", 24*60*60);*/
-		CacheUtils
+		JedisUtils.set("dongwangcheng", "18826410895", 24*60*60);
 		System.out.println(JedisUtils.get("dongwangcheng"));
 		
 		model.addAttribute("page", page);
